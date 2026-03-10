@@ -9,7 +9,7 @@ services:
       VERSION: "10"
       USERNAME: ${WINDOWS_USERNAME}
       PASSWORD: ${WINDOWS_PASSWORD}
-      RAM_SIZE: "10G"
+      RAM_SIZE: "2G"
       CPU_CORES: "4"
     cap_add:
       - NET_ADMIN
